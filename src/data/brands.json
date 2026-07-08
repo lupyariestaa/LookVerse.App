@@ -1,0 +1,44 @@
+[
+  {
+    "id": "brand-erigo",
+    "slug": "erigo",
+    "name": "Erigo",
+    "logo": "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?q=80&w=300&auto=format&fit=crop",
+    "description": "Indonesian leading streetwear brand offering trendy hoodies, tees, and outer jackets."
+  },
+  {
+    "id": "brand-executive",
+    "slug": "executive",
+    "name": "Executive",
+    "logo": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=300&auto=format&fit=crop",
+    "description": "Modern office and smart casual wear with clean contours and professional cuts."
+  },
+  {
+    "id": "brand-minimal",
+    "slug": "minimal",
+    "name": "Minimal",
+    "logo": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=300&auto=format&fit=crop",
+    "description": "Timeless, refined feminine essentials focusing on pure colors and classic fits."
+  },
+  {
+    "id": "brand-colorbox",
+    "slug": "colorbox",
+    "name": "Colorbox",
+    "logo": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=300&auto=format&fit=crop",
+    "description": "Youthful, colorful, and fun apparel designed for casual everyday hangouts."
+  },
+  {
+    "id": "brand-this-is-april",
+    "slug": "this-is-april",
+    "name": "This Is April",
+    "logo": "https://images.unsplash.com/photo-1534126511673-b6899657816a?q=80&w=300&auto=format&fit=crop",
+    "description": "Affordable yet highly curated aesthetic clothing with soft palettes and warm feelings."
+  },
+  {
+    "id": "brand-eiger",
+    "slug": "eiger",
+    "name": "Eiger",
+    "logo": "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?q=80&w=300&auto=format&fit=crop",
+    "description": "Tropical adventure gears and technical outerwear built for supreme durability."
+  }
+]

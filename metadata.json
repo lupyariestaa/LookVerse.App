@@ -1,0 +1,6 @@
+{
+  "name": "LookVerse",
+  "description": "Premium sneaker and fashion discovery showcase platform with a built-in editorial Content Management System (LookVerse CMS).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

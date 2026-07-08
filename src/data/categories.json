@@ -1,0 +1,42 @@
+[
+  {
+    "id": "cat-shoes",
+    "slug": "shoes",
+    "name": "Sneakers & Shoes",
+    "icon": "Footprints",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1200&auto=format&fit=crop",
+    "description": "Premium footwear curated for performance and urban style. Find your perfect kick."
+  },
+  {
+    "id": "cat-apparel-men",
+    "slug": "men-fashion",
+    "name": "Men's Apparel",
+    "icon": "Shirt",
+    "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1200&auto=format&fit=crop",
+    "description": "Bold, contemporary streetwear and smart basics for the modern man."
+  },
+  {
+    "id": "cat-apparel-women",
+    "slug": "women-fashion",
+    "name": "Women's Apparel",
+    "icon": "Sparkles",
+    "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=1200&auto=format&fit=crop",
+    "description": "Elegant silhouettes and casual streetwear curated for daily wear."
+  },
+  {
+    "id": "cat-bags",
+    "slug": "bags",
+    "name": "Bags & Packs",
+    "icon": "Briefcase",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=1200&auto=format&fit=crop",
+    "description": "Durable and aesthetic backpacks, sling bags, and daily totes."
+  },
+  {
+    "id": "cat-accessories",
+    "slug": "accessories",
+    "name": "Accessories",
+    "icon": "Watch",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1200&auto=format&fit=crop",
+    "description": "Premium watches, caps, and sunglasses to finalize your statement look."
+  }
+]

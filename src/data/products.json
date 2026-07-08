@@ -1,0 +1,203 @@
+[
+  {
+    "id": "prod-volt-24",
+    "slug": "phantom-volt-24",
+    "name": "Phantom Volt '24 Extreme Performance Sneakers",
+    "description": "Engineered for pure speed and street aesthetic. Features a lightweight mesh upper with hyper-responsive neon sole cushioning, offering unmatched rebound and modern futuristic vibes.",
+    "category": "shoes",
+    "brand": "erigo",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=600&auto=format&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?q=80&w=600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1608231387042-66d1773070a5?q=80&w=600&auto=format&fit=crop"
+    ],
+    "originalPrice": 1299000,
+    "salePrice": 799000,
+    "discount": 38,
+    "rating": 4.9,
+    "reviewCount": 142,
+    "badge": "Trending",
+    "marketplace": "Shopee",
+    "affiliateUrl": "https://shopee.co.id",
+    "highlights": [
+      "Responsive Neon cushioning technology",
+      "Futuristic lightweight mesh upper",
+      "Excellent multi-surface traction grip",
+      "Eco-friendly recycled polymers"
+    ],
+    "specifications": {
+      "Model": "Phantom Volt '24",
+      "Style": "Streetwear / Athletic",
+      "Material": "Synthetic Mesh / Rubber Soles",
+      "Sizes Available": "39, 40, 41, 42, 43, 44",
+      "Origin": "Designed in Jakarta"
+    }
+  },
+  {
+    "id": "prod-retro-classic",
+    "slug": "retro-pulse-classic",
+    "name": "Retro Pulse Classic Suede Kicks",
+    "description": "Timeless retro silhouette wrapped in ultra-soft premium suede. Designed to deliver superior daily comfort with a clean, low-profile style that matches any street outfit.",
+    "category": "shoes",
+    "brand": "erigo",
+    "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?q=80&w=600&auto=format&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?q=80&w=600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?q=80&w=600&auto=format&fit=crop"
+    ],
+    "originalPrice": 899000,
+    "salePrice": 599000,
+    "discount": 33,
+    "rating": 4.8,
+    "reviewCount": 88,
+    "badge": "New",
+    "marketplace": "Tokopedia",
+    "affiliateUrl": "https://tokopedia.com",
+    "highlights": [
+      "Premium genuine suede construction",
+      "Cushioned Ortho-comfort insole",
+      "Iconic retro stitching accents",
+      "Ultra-durable vulcanized outsole"
+    ],
+    "specifications": {
+      "Model": "Retro Pulse v1",
+      "Style": "Casual Retro",
+      "Material": "Suede Upper / Ortholite Insole",
+      "Sizes Available": "40, 41, 42, 43",
+      "Origin": "Premium Import"
+    }
+  },
+  {
+    "id": "prod-zen-runner",
+    "slug": "zen-carbon-runner",
+    "name": "Zen Carbon Ultralight Runner",
+    "description": "The ultimate featherweight running shoe. Equipped with a carbon fiber spring plate that maximizes efficiency and energy return with every single stride.",
+    "category": "shoes",
+    "brand": "eiger",
+    "image": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?q=80&w=600&auto=format&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1608231387042-66d1773070a5?q=80&w=600&auto=format&fit=crop"
+    ],
+    "originalPrice": 1499000,
+    "salePrice": 899000,
+    "discount": 40,
+    "rating": 4.7,
+    "reviewCount": 56,
+    "badge": "Best Seller",
+    "marketplace": "Lazada",
+    "affiliateUrl": "https://lazada.co.id",
+    "highlights": [
+      "Carbon Fiber stability spring-plate",
+      "Zero-gravity breathable knit weave",
+      "Slip-resistant tactical tread pattern",
+      "Anatomical heel lock design"
+    ],
+    "specifications": {
+      "Model": "Zen Carbon Ultra",
+      "Style": "Athletic Running",
+      "Material": "Knit Mesh / Carbon Compound / EVA",
+      "Sizes Available": "38, 39, 40, 41, 42, 43",
+      "Origin": "Eiger Lab Tech"
+    }
+  },
+  {
+    "id": "prod-executive-suit",
+    "slug": "executive-smart-blazer",
+    "name": "Executive Smart Minimalist Blazer",
+    "description": "A sharp, modern minimalist blazer tailored to precision. Ideal for transitioning seamlessly from formal boardroom discussions to premium urban nights.",
+    "category": "men-fashion",
+    "brand": "executive",
+    "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=600&auto=format&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=600&auto=format&fit=crop"
+    ],
+    "originalPrice": 799000,
+    "salePrice": 499000,
+    "discount": 37,
+    "rating": 4.9,
+    "reviewCount": 95,
+    "badge": "Trending",
+    "marketplace": "Shopee",
+    "affiliateUrl": "https://shopee.co.id",
+    "highlights": [
+      "Premium blended wool finish",
+      "Anti-crease stretch fabrication",
+      "Double interior utility pockets",
+      "Tailored slim-fit profile"
+    ],
+    "specifications": {
+      "Model": "Smart Blazer 01",
+      "Style": "Formal / Smart Casual",
+      "Material": "Polyester Blend / Rayon",
+      "Sizes Available": "S, M, L, XL",
+      "Origin": "Local Tailored"
+    }
+  },
+  {
+    "id": "prod-minimal-linen",
+    "slug": "minimal-flow-linen-dress",
+    "name": "Minimal Flow Breathable Linen Dress",
+    "description": "A classic off-white flowy dress constructed with the highest-grade linen. Offers maximum breathability and timeless style for weekend getaways and warm sunny afternoons.",
+    "category": "women-fashion",
+    "brand": "minimal",
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=600&auto=format&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=600&auto=format&fit=crop"
+    ],
+    "originalPrice": 629000,
+    "salePrice": 399000,
+    "discount": 36,
+    "rating": 4.6,
+    "reviewCount": 42,
+    "badge": "Sale",
+    "marketplace": "Tokopedia",
+    "affiliateUrl": "https://tokopedia.com",
+    "highlights": [
+      "100% natural organic linen fiber",
+      "Eco-conscious hypoallergenic dyeing",
+      "Flowing structural fit",
+      "Discreet functional side pockets"
+    ],
+    "specifications": {
+      "Model": "Flow Dress Organic",
+      "Style": "Bohemian Casual",
+      "Material": "100% Organic Linen",
+      "Sizes Available": "XS, S, M, L",
+      "Origin": "Ethically Sourced"
+    }
+  },
+  {
+    "id": "prod-eiger-tactical",
+    "slug": "eiger-apex-tactical-pack",
+    "name": "Eiger Apex 25L Tactical Pack",
+    "description": "High-durability water-resistant backpack engineered for tropical hiking or heavy-duty daily urban commutes. Built with reinforced ripstop nylon.",
+    "category": "bags",
+    "brand": "eiger",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=600&auto=format&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=600&auto=format&fit=crop"
+    ],
+    "originalPrice": 599000,
+    "salePrice": 449000,
+    "discount": 25,
+    "rating": 4.9,
+    "reviewCount": 110,
+    "badge": "Best Seller",
+    "marketplace": "TikTok Shop",
+    "affiliateUrl": "https://tiktok.com",
+    "highlights": [
+      "Durable 1000D Cordura Ripstop",
+      "Padded 15.6 inch laptop sleeve",
+      "Ergonomic load-bearing waist strap",
+      "Tropical heavy rain-cover included"
+    ],
+    "specifications": {
+      "Model": "Apex 25L Pack",
+      "Style": "Adventure Tactical",
+      "Material": "Heavy Cordura / Waterproof lining",
+      "Capacity": "25 Liters",
+      "Weight": "780g"
+    }
+  }
+]

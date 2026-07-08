@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,700;1,800&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-brand-black: #0A0A0A;
+  --color-brand-white: #F5F5F5;
+  --color-brand-orange: #FF4D00;
+  --color-brand-orange-hover: #E04400;
+  
+  /* LookVerse CMS Admin Colors (Chapter 2) - Aligned with LookVerse Landing Page Brand Orange & Black */
+  --color-admin-primary: #FF4D00;
+  --color-admin-secondary: #FF7333;
+  --color-admin-bg: #F8FAFC;
+  --color-admin-surface: #FFFFFF;
+  --color-admin-border: #E5E7EB;
+  --color-admin-text-primary: #0A0A0A;
+  --color-admin-text-secondary: #525252;
+
+  --color-admin-dark-bg: #0A0A0A;
+  --color-admin-dark-surface: #121212;
+  --color-admin-dark-sidebar: #0D0D0D;
+  --color-admin-dark-text-primary: #F5F5F5;
+  --color-admin-dark-text-secondary: #A3A3A3;
+  --color-admin-dark-border: #1F1F1F;
+
+  /* Redefining Tailwind indigo scale to map to LookVerse Brand Orange */
+  --color-indigo-50: #FFF5F0;
+  --color-indigo-100: #FFE6D9;
+  --color-indigo-200: #FFCBB3;
+  --color-indigo-300: #FFAF8C;
+  --color-indigo-400: #FF9166;
+  --color-indigo-500: #FF4D00;
+  --color-indigo-600: #E04400;
+  --color-indigo-700: #C73B00;
+  --color-indigo-800: #AD3300;
+  --color-indigo-900: #5C1B00;
+  --color-indigo-950: #2E0E00;
+
+  /* Redefining Tailwind purple scale to map to LookVerse Secondary Warm Amber-Orange */
+  --color-purple-50: #FFFBF0;
+  --color-purple-100: #FFF2D4;
+  --color-purple-200: #FFE0A3;
+  --color-purple-300: #FFCC70;
+  --color-purple-400: #FFB33D;
+  --color-purple-500: #FF9F0A;
+  --color-purple-600: #E08700;
+  --color-purple-700: #B86B00;
+  --color-purple-800: #8F5000;
+  --color-purple-900: #663600;
+  --color-purple-950: #3D1F00;
+  
+  /* Soft dark and light surfaces */
+  --color-surface-light: #FFFFFF;
+  --color-surface-dark: #121212;
+  --color-surface-dark-card: #1C1C1E;
+}
+
+@layer base {
+  html, body {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  /* Focus ring overrides for a premium feel */
+  *:focus-visible {
+    outline: 2px solid var(--color-brand-orange);
+    outline-offset: 2px;
+  }
+
+  ::selection {
+    background-color: var(--color-brand-orange);
+    color: white;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #0A0A0A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(156, 163, 175, 0.3);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brand-orange);
+}
+
+/* Custom glowing effects for Bold Typography style */
+.glow-orange {
+  box-shadow: 0 0 20px rgba(255, 77, 0, 0.15);
+}
+
+.glow-orange-strong {
+  box-shadow: 0 0 30px rgba(255, 77, 0, 0.35);
+}
+
+/* Base fade-in keyframes for transitions */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+

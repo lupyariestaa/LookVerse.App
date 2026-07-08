@@ -1,0 +1,18 @@
+[
+  {
+    "id": "banner-phantom",
+    "title": "PHANTOM VOLT '24",
+    "subtitle": "Curated sneaker showcase built for high-performance and bold editorial presence.",
+    "image": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?q=80&w=1200&auto=format&fit=crop",
+    "buttonText": "Discover Kicks",
+    "buttonLink": "/shop"
+  },
+  {
+    "id": "banner-streetwear",
+    "title": "STREET PULSE",
+    "subtitle": "Discover curated streetwear and hoodies from local top brand Erigo.",
+    "image": "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?q=80&w=1200&auto=format&fit=crop",
+    "buttonText": "Explore Apparel",
+    "buttonLink": "/shop"
+  }
+]
