@@ -385,11 +385,7 @@ app.post("/api/admin/login", (req, res) => {
 
 // 6. GET /api/admin/config
 app.get("/api/admin/config", (req, res) => {
-  const adminEmail = process.env.ADMIN_EMAIL || "scout@lookverse.io";
-  const adminPassword = process.env.ADMIN_PASSWORD || "password";
   res.json({
-    adminEmail,
-    adminPassword, // Expose for easy copy-paste in the demo login screen
     hasCustomCredentials: !!(process.env.ADMIN_EMAIL && process.env.ADMIN_PASSWORD)
   });
 });
@@ -419,4 +415,8 @@ async function startServer() {
   });
 }
 
-startServer();
+if (!process.env.VERCEL) {
+  startServer();
+}
+
+export default app;

@@ -16,23 +16,6 @@ export const Login: React.FC = () => {
   const [error, setError] = useState('');
   const [isLoading, setIsLoading] = useState(false);
 
-  const [helperEmail, setHelperEmail] = useState('scout@lookverse.io');
-  const [helperPassword, setHelperPassword] = useState('password');
-
-  React.useEffect(() => {
-    fetch('/api/admin/config')
-      .then((res) => res.json())
-      .then((data) => {
-        if (data.adminEmail) {
-          setHelperEmail(data.adminEmail);
-        }
-        if (data.adminPassword) {
-          setHelperPassword(data.adminPassword);
-        }
-      })
-      .catch((err) => console.error('Failed to fetch server credentials config', err));
-  }, []);
-
   // Redirection target after logging in
   const from = location.state?.from?.pathname || '/admin/dashboard';
 
@@ -116,18 +99,18 @@ export const Login: React.FC = () => {
           )}
 
           <form onSubmit={handleLogin} className="space-y-5">
-            {/* Email Field */}
+            {/* Email/Username Field */}
             <div className="space-y-1.5">
               <label className="text-[10px] font-mono font-black uppercase tracking-widest text-slate-400 block">
-                Operator Email Address_
+                Operator Username or Email_
               </label>
               <div className="relative">
                 <input
-                  type="email"
+                  type="text"
                   required
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder="e.g. scout@lookverse.io"
+                  placeholder="e.g. lupyariestaa"
                   className="w-full bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-xs text-slate-800 dark:text-slate-100 pl-10 pr-4 py-3 rounded-[10px] focus:outline-none focus:border-admin-primary transition-colors font-medium"
                 />
                 <Mail className="w-4 h-4 text-slate-300 absolute left-3.5 top-1/2 -translate-y-1/2" />
@@ -157,13 +140,6 @@ export const Login: React.FC = () => {
                   {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
                 </button>
               </div>
-            </div>
-
-            {/* Demo Helper box */}
-            <div className="bg-slate-50 dark:bg-slate-900 rounded-[10px] p-3 text-[10px] font-mono text-slate-400 dark:text-slate-500 border border-slate-100 dark:border-slate-800/50 leading-relaxed text-center">
-              ACTIVE_ OPERATOR CREDENTIALS:<br />
-              EMAIL: <span className="text-admin-primary font-black">{helperEmail}</span><br />
-              ACCESS CODE: <span className="text-admin-primary font-black">{helperPassword}</span>
             </div>
 
             {/* Submit Button */}
